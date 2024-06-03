@@ -185,14 +185,14 @@ If you would likt just test high level function, please use the `high` option. T
   1. Enter valid serial number `12345678` into the input field.
   2. Click the "Get info" button.
 - **Expected Result:** The system should display the warranty status for the entered serial number.
-- **Run command:** : `python -m pytest -s test_functions.py::test_invalid_serial_number`
+- **Run command:** : `python -m pytest --browser=chrome function/test_functions.py::test_invalid_serial_number`
 
 [Back to Top](#barco-test-plan-and-test-cases)
 
 <a name="generate_html_test_report"></a><font color="blue">Generate HTML Test Report</font>
 ---------------------
 To generate HTML reports for your test results using the `pytest-html` plugin, follow these steps:
-python -m pytest --browser=chrome .\test_functions.py --html=report.html
+python -m pytest --browser=chrome function/test_functions.py --html=report.html
 
 1. **Install pytest-html**:
 
@@ -206,7 +206,7 @@ python -m pytest --browser=chrome .\test_functions.py --html=report.html
 2. **Run Tests with HTML Report**:
   - **Run tests on all browsers (default) and generate a HTML report:** 
     ```sh
-    python -m pytest .\test_functions.py --html=report.html
+    python -m pytest function/test_functions.py --html=report.html
     ```
 
 3. **Viewing the HTML Report**:    
