@@ -103,17 +103,17 @@ To run your tests, you can choose the browser you want to test with. If you do n
 
   ```sh
   cd BarcoTest
-  python -m pytest --browser=chrome .\test_functions.py
+  python -m pytest --browser=chrome function/test_functions.py
   ```
 After verification, an html report will be generated. If not, you can manually add the following parameters `--html`
 - **Example for running tests on Chrome:** 
   ```sh
-  python -m pytest --browser=chrome .\test_functions.py --html=report.html
+  python -m pytest --browser=chrome function/test_functions.py --html=report.html
   ```
 If you would likt just test high level function, please use the `high` option. There are three levels in total, including high, middle and low.
 - **Example for running high level tests on Chrome:** 
   ```sh
-  python -m pytest -m high --browser=chrome .\test_functions.py
+  python -m pytest -m high --browser=chrome function/test_functions.py
   ```
 ### Test Case 1:
 <a name="verify_warranty_check_with_valid_serial_number"></a><font color="blue">Verify Warranty Check with Valid Serial Number</font>
