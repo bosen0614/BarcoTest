@@ -115,6 +115,12 @@ If you would likt just test high level function, please use the `high` option. T
   ```sh
   python -m pytest -m high --browser=chrome function/test_functions.py
   ```
+
+After executing the automatic test, the following files will be automatically generated in bugReport folder:
+  - test_function_log
+  - TestReport.html
+  - TestReport.xlsx
+
 ### Test Case 1:
 <a name="verify_warranty_check_with_valid_serial_number"></a><font color="blue">Verify Warranty Check with Valid Serial Number</font>
 - **Preconditions:** Navigate to the ClickShare Extended Warranty page.
@@ -224,7 +230,6 @@ python -m pytest --browser=chrome function/test_functions.py --html=report.html
       2. Drag and drop the report.html file into the browser window.
       3. Alternatively, use the browser's "Open File" option (usually accessible via Ctrl+O or Cmd+O) and select the report.html file.
 
-You can view the example full HTML report [here](C:/Users/User/Desktop/Posen/BarcoTest/report.html?sort=result).
 
 [Back to Top](#barco-test-plan-and-test-cases)
 
