@@ -73,7 +73,7 @@ To ensure your development environment has all the necessary libraries, you need
   ```
 3. **Install the dependencies using pip:**
   ```sh
-  pip install -r common/requirements.txt
+  pip install -r requirements.txt
   ```
 
 [Back to Top](#barco-test-plan-and-test-cases)
