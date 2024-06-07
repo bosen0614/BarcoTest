@@ -10,7 +10,7 @@
   * [Verify Warranty Check with Extremely Long Serial Number](#verify_warranty_check_with_extremely_long_serial_number)
   * [Verify Warranty Check with Extremely Short Serial Number](#verify_warranty_check_with_extremely_short_serial_number)
   * [Verify Warranty Check with Leading , Trailing or Middle Spaces in Serial Number](#verify_warranty_check_with_leading_trailing_and_middle_spaces_in_serial_number)
-  * Verify Warranty Check Serial numbers with alphabet](#verify_warranty_check_serial_numbers_with_alphabet)
+  * [Verify Warranty Check Serial numbers with alphabet](#verify_warranty_check_serial_numbers_with_alphabet)
   * [Verify Warranty Check with Invalid Serial Number](#verify_warranty_check_with_invalid_serial_number)
 * [Generate HTML Test Report](#generate_html_test_report)
 * [To do](#to_do)
