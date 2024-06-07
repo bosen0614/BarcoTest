@@ -9,8 +9,8 @@
   * [Verify Warranty Check with Special Characters in Serial Number](#verify_warranty_check_with_special_characters_in_serial_number)
   * [Verify Warranty Check with Extremely Long Serial Number](#verify_warranty_check_with_extremely_long_serial_number)
   * [Verify Warranty Check with Extremely Short Serial Number](#verify_warranty_check_with_extremely_short_serial_number)
-  * [Verify Warranty Check with Leading and Trailing Spaces in Serial Number](#verify_warranty_check_with_leading_and_trailing_spaces_in_serial_number)
-  * [Verify Warranty Check Page Elements are Loaded Properly](#verify_warranty_check_page_elements_are_loaded_properly)
+  * [Verify Warranty Check with Leading , Trailing or Middle Spaces in Serial Number](#verify_warranty_check_with_leading_trailing_and_middle_spaces_in_serial_number)
+  * Verify Warranty Check Serial numbers with alphabet](#verify_warranty_check_serial_numbers_with_alphabet)
   * [Verify Warranty Check with Invalid Serial Number](#verify_warranty_check_with_invalid_serial_number)
 * [Generate HTML Test Report](#generate_html_test_report)
 * [To do](#to_do)
@@ -167,7 +167,7 @@ After executing the automatic test, the following files will be automatically ge
 - **Run command:** : `python -m pytest --browser=chrome function/test_functions.py::test_extremely_short_long_serial_number`
 
 ### Test Case 6:
-<a name="verify_warranty_check_with_leading_and_trailing_spaces_and_middle_spaces_in_serial_number"></a><font color="blue">Verify Warranty Check with Leading , Trailing or Middle Spaces in Serial Number</font>
+<a name="verify_warranty_check_with_leading_trailing_and_middle_spaces_in_serial_number"></a><font color="blue">Verify Warranty Check with Leading , Trailing or Middle Spaces in Serial Number</font>
 - **Preconditions:** Navigate to the ClickShare Extended Warranty page.
 - **Steps:**
   1. Enter a serial number with leading, trailing or middle spaces (e.g., `  18635 52437  `) into the input field.
